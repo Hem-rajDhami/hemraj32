@@ -1,0 +1,48 @@
+/* body{
+    display: grid;
+} */
+#out{
+   /* place-self: center; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#box{
+    padding: 20px;
+    background-color:#191818e7;
+    /* height: 150px; */
+    border-radius: 10px;
+    
+}
+#output{
+    background: transparent;
+    text-align: right;
+    width: 250px;
+}
+#output input{
+    border: hidden;
+    width: 100%;
+    background: transparent;
+    font-size: 70px;
+    text-align: right;
+}
+#input{
+    background: transparent;
+    
+}
+.buttons{
+    background-size: contain;
+}
+.buttons button{
+    padding-left: 10px;
+    font-family:"Lucida Console", "Courier New", monospace;
+    border-radius: 100px;
+    background: transparent;
+    transition: 0.3s;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.buttons button:hover{
+    background-color: rgb(21, 31, 20);
+    color: rgb(161, 166, 171);
+}
